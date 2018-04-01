@@ -1,7 +1,6 @@
 // created by 123Titanic321
 const botconfig = require('./botconfig.json');
 const green = botconfig.green;
-const tokenfile = require('./token.json');
 const Discord = require('discord.js');
 const fs = require('fs');
 const bot = new Discord.Client({disableEveryone: true});
@@ -143,4 +142,4 @@ bot.on('guildCreate', guild => {
   bot.emojis.get("<a:dblspin:393548363879940108>");
   bot.emojis.get("<:tickYes:315009125694177281>");
   bot.emojis.get("<a:thug:429334407384399884>")
-bot.login(tokenfile.token);
+bot.login(process.env.BOT_TOKEN);
