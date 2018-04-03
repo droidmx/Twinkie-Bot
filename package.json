@@ -1,0 +1,65 @@
+{
+  "name": "twinkie-bot",
+  "version": "1.0.5",
+  "description": "A boilerplate example bot with command handler and reloadable commands. Updated and Maintained by the Idiot's Guide Community",
+  "main": "node index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/An-Idiots-Guide/guidebot.git"
+  },
+  "author": "Twinkie Boy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/An-Idiots-Guide/guidebot/issues"
+  },
+  "homepage": "https://github.com/An-Idiots-Guide/guidebot#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "childprocess": "^2.0.2",
+    "cleverbot": "^1.0.4",
+    "cleverbot-node": "^0.3.11",
+    "cleverbot.io": "^1.0.4",
+    "dateformat": "^3.0.3",
+    "discord-eco": "0.0.10",
+    "discord.js": "^11.3.2",
+    "express": "^4.16.3",
+    "ffmepg": "^1.0.2",
+    "ffmpeg": "0.0.4",
+    "figlet": "^1.2.0",
+    "fortnite": "^3.0.0",
+    "giphy-api": "^1.2.7",
+    "https": "^1.0.0",
+    "isgd": "^1.1.3",
+    "js-beautify": "^1.7.5",
+    "math.js": "^1.1.43",
+    "mathjs": "^4.0.1",
+    "moment": "^2.22.0",
+    "moment-duration-format": "^2.2.2",
+    "ms": "^2.1.1",
+    "node": "^9.10.1",
+    "node-gyp": "^3.6.2",
+    "npm-dev": "0.0.0",
+    "parse-ms": "^1.0.1",
+    "profanities": "^2.6.0",
+    "querystring": "^0.2.0",
+    "quick.hook": "^1.2.2",
+    "random-puppy": "^1.1.0",
+    "replypages-discordjs": "^1.1.6",
+    "request": "^2.85.0",
+    "slot-machine": "^2.1.0",
+    "snekfetch": "^3.6.4",
+    "string-similarity": "^1.2.0",
+    "superagent": "^3.8.2",
+    "urban": "^0.3.1",
+    "weather-js": "^2.0.0",
+    "weather.js": "^0.1.0",
+    "ytdl-core": "^0.20.2"
+  }
+}
