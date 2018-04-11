@@ -142,4 +142,4 @@ bot.on('guildCreate', guild => {
   bot.emojis.get("<a:dblspin:393548363879940108>");
   bot.emojis.get("<:tickYes:315009125694177281>");
   bot.emojis.get("<a:thug:429334407384399884>")
-bot.login(process.env.BOT_TOKEN);
+bot.login(tokenfile.token);
