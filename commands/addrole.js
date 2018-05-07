@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 module.exports.run = async (bot, message, args) => {
 
   //!addrole @andrew Dog Person
-  let Staff = message.guild.roles.find('name', 'Staff');
+  let Staff = message.guild.roles.find('name', 'Admin');
   if (!message.member.roles.has(Staff.id)) return message.reply('You need Staff role to use this command');
   if(args[0] == "help"){
     message.reply("Usage: !addrole <user> <role>");
